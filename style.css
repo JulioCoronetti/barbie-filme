@@ -17,8 +17,8 @@
 a {
   text-decoration: none;
   color: #fff;
-  padding: 20px 50px;
   display: inline-block;
+  padding: 10px 0;
 }
 
 body {
@@ -38,7 +38,7 @@ body {
   flex-direction: column;
   align-items: center;
   max-width: 600px;
-  gap: 130px;
+  gap: 80px;
   height: 100vh;
   position: relative;
   margin-left: 125px;
@@ -97,6 +97,15 @@ body {
   font-size: 30px;
 }
 
+#sociali {
+  transition: 0.5s;
+}
+
+#sociali:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
 .buttons {
   display: flex;
   gap: 20px;
@@ -105,7 +114,8 @@ body {
 button {
   font-family: "Absolute Blonde";
   color: #fff;
-  font-size: 22px;
+  padding: 7px 15px;
+  font-size: 20px;
   border-radius: 30px;
   border: 2px solid #fff;
   background: #de3aa4;
